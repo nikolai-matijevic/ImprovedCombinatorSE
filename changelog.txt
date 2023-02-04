@@ -1,0 +1,89 @@
+Version: 1.0.15
+Date: 4-Feb-2023
+  Bugfixes:
+    - Fixed combinator not being placable in space with Space Exploration mod
+---------------------------------------------------------------------------------------------------
+Version: 1.0.14
+Date: 6-Apr-2021
+  Bugfixes:
+    - Fixed issues were virtual signals were missing when certain mods were being used
+---------------------------------------------------------------------------------------------------
+Version: 1.0.13
+Date: 28-Nov-2020
+  Bugfixes:
+    - Fixed several multiplayer issues
+  Changes:
+    - The last selected signal group will now be remembered
+    - Upgraded the mod to support 1.1
+---------------------------------------------------------------------------------------------------
+Version: 1.0.12
+Date: 12-Sep-2020
+  Bugfixes:
+    - Fixed a bug, showing that the output ghost missing if the entity was placed using robots
+    - Fixed a crash caused by removing a ghost entity
+  Changes:
+    - Slightly increased the entity collision size to prevent the ghosts from overlapping with other entities. This could affect older blueprints that have placed entities next to the Improved Combinator.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.11
+Date: 05-Sep-2020
+  Bugfixes:
+    - Fixed a bug in the decider combinator, which was casing the game to crash if the output signal was set to "Everything"
+---------------------------------------------------------------------------------------------------
+Version: 1.0.10
+Date: 28-Aug-2020
+  Bugfixes:
+    - Fixed a crash caused by outputting more than 50 signals at the same time
+    - Fixed a ghost removal issue caused by placing entities too close to each other
+    - Fixed an issue which prevented ghost entities from being removed if the entity was created using a blueprint
+---------------------------------------------------------------------------------------------------
+Version: 1.0.9
+Date: 22-Aug-2020
+  Changes:
+    - Added checks to ensure the mod doesn't try and use invalid entities when creating a blueprint
+---------------------------------------------------------------------------------------------------
+Version: 1.0.8
+Date: 20-Aug-2020
+  Bugfixes:
+    - Fixed a crash caused when trying modify an existing blueprint
+---------------------------------------------------------------------------------------------------
+Version: 1.0.7
+Date: 19-Aug-2020
+  Bugfixes:
+    - Fixed an issue which occurred when destroying a ghost entity
+---------------------------------------------------------------------------------------------------
+Version: 1.0.6
+Date: 19-Aug-2020
+  Bugfixes:
+    - Fixed an issue which crashes the game if an entity gets copied
+---------------------------------------------------------------------------------------------------
+Version: 1.0.5
+Date: 19-Aug-2020
+  Features:
+    - The entity is now blueprintable 
+---------------------------------------------------------------------------------------------------
+Version: 1.0.4
+Date: 15-Aug-2020
+  Changes:
+    - Upgraded the Factorio version to 1.0.0
+  Features:
+    - Implemented combinator special signals 
+---------------------------------------------------------------------------------------------------
+Version: 1.0.3
+Date: 13-Aug-2020
+  Bugfixes:
+    - Added missing signal group tooltips
+  Changes:
+    - Updated the placement of the signals frame y position to be relative to the main frame
+    - Enabled the usage of negative combinator value
+---------------------------------------------------------------------------------------------------
+Version: 1.0.2
+Date: 10-Aug-2020
+  Bugfixes:
+    - Fixed missing sprites in custom signal groups
+    - Fixed the inability to select a signal group (accidentally added in 1.0.1)
+---------------------------------------------------------------------------------------------------
+Version: 1.0.1
+Date: 10-Aug-2020
+  Bugfixes:
+    - Fixed incompatibility issue with the "LTN Manger" mod
+    - Fixed a crash caused by custom signal mods being loaded after this mod. While this issue is being investigated some signal groups may be displayed as a question mark.
