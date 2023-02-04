@@ -1,4 +1,8 @@
-# Factorio - Improved Combinator
+# Factorio - Improved Combinator SE
+
+Original Mod was created by [SomeUserName785](https://mods.factorio.com/user/SomeUserName785): [Improved Combinator](https://mods.factorio.com/mod/ImprovedCombinator)
+
+This fork adds compatibility with [Space Exploration](https://mods.factorio.com/mod/space-exploration) by allowing the Improved Combinator to be placed in space.
 
 ## Mod description
 This mod aims to provide a way to easily manage multiple combinators and time conditions in a single GUI similarly to the train scheduler.
